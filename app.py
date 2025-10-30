@@ -710,7 +710,7 @@ def ssh_authenticate():
     password = request.form.get('password')
     
     if username in SSH_USERS and SSH_USERS[username] == password:
-        flag = "vnr_w4rz0n3{dj_tillu_m1xt4p3_m4st3r_y0u_cr4ck3d_th3_b34t_2025}"
+        flag = "w4rz0n3{dj_tillu_m1xt4p3_m4st3r_y0u_cr4ck3d_th3_b34t_2025}"
         result = f'''
 <!DOCTYPE html>
 <html>
